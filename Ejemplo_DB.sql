@@ -23,7 +23,7 @@ CREATE TABLE `ESTUDIANTE`(
 /*AGREGAR UN REGISTRO*/
 
 INSERT INTO `ESTUDIANTE`(  `nombre_alumno`,`carrera`, `numero_cuenta`,  `telefono`)    VALUES
-('Aaron Velasco','ICO', '413112576','56418189');
+('Rafael Prado','ICO', '316141725','5521126523');
 
 /*  año-mes-dia hora-minutos-segundos */
 
@@ -31,4 +31,4 @@ INSERT INTO `ESTUDIANTE`(  `nombre_alumno`,`carrera`, `numero_cuenta`,  `telefon
 
 alter table `ESTUDIANTE`
     add primary key (`numero_cuenta`);
-    
+
